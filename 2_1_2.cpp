@@ -1,6 +1,6 @@
 /*
 2.
-1.2 Write code to reverse a C-Style String.
+1.2 Write code to reverse a C style string.
 */
 
 #include <iostream>
