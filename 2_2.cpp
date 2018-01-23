@@ -62,3 +62,5 @@ int main()
   push(&head, 35);
  
   printNthFromLast(head, 5);
+  return 0;
+}
