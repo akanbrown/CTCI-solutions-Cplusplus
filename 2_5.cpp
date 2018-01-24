@@ -13,10 +13,10 @@ Input: A -> B -> C -> D -> E -> C [The same C as earlier]
 Output: C
 
 */
-
 #include<stdio.h>
 #include<stdlib.h>
  
+
 /* Link list node */
 struct Node
 {
@@ -30,6 +30,7 @@ void removeLoop(struct Node *, struct Node *);
 /* This function detects and removes loop in the list
   If loop was there in the list then it returns 1,
   otherwise returns 0 */
+
 int detectAndRemoveLoop(struct Node *list)
 {
     struct Node  *slow_p = list, *fast_p = list;
