@@ -31,7 +31,7 @@ void removeLoop(struct Node *, struct Node *);
   If loop was there in the list then it returns 1,
   otherwise returns 0 */
 
-int detectAndRemoveLoop(struct Node *list)
+int detectAndRemoveLoop(struct Node *lis)
 {
     struct Node  *slow_p = list, *fast_p = list;
  
