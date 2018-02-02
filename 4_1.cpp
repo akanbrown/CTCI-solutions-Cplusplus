@@ -1,7 +1,9 @@
 
 /* 
 Chapter 4 number 1
+Implement a function to determine if a tree is balanced.
 */
+
 
 
 /* C program to check if a tree is height-balanced or not */
