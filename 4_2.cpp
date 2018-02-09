@@ -79,3 +79,4 @@ bool Graph::isReachable(int s, int d)
 }
  
 // Driver program to test methods of graph class
+int main(){    // Create a graph given in the above diagram    Graph g(4);    g.addEdge(0, 1);    g.addEdge(0, 2);    g.addEdge(1, 2);    g.addEdge(2, 0);    g.addEdge(2, 3);    g.addEdge(3, 3);     int u = 1, v = 3;    if(g.isReachable(u, v))        cout<< "\n There is a path from " << u << " to " << v;    else        cout<< "\n There is no path from " << u << " to " << v;     u = 3, v = 1;    if(g.isReachable(u, v))        cout<< "\n There is a path from " << u << " to " << v;    else        cout<< "\n There is no path from " << u << " to " << v;     return 0;}
