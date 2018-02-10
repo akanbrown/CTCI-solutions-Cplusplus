@@ -68,3 +68,14 @@ void printKPath(Node *root, int k)
     printKPathUtil(root, path, k);
 }
  
+
+// Driver code
+int main()
+{
+    Node *root = new Node(1);
+    root->left = new Node(3);
+    root->left->left = new Node(2);
+    root->left->right = new Node(1);
+    root->left->right->left = new Node(1);
+    root->right = new Node(-1);
+    
