@@ -26,3 +26,8 @@ int setBits(int n, int m, int i, int j)
  
     // return the Bitwise OR of masked_n 
 
+    // and shifted_m
+    return (masked_n | m_shifted);
+}
+ 
+// Drivers program
