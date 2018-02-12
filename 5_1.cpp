@@ -25,15 +25,4 @@ int setBits(int n, int m, int i, int j)
     int m_shifted = m << i;
  
     // return the Bitwise OR of masked_n 
-    // and shifted_m
-    return (masked_n | m_shifted);
-}
- 
-// Drivers program
-int main()
-{
-    int n = 2, m = 4;
-    int i = 2, j = 4;
-    cout << setBits(n, m, i, j);
-    return 0;
-}
+
