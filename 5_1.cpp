@@ -31,3 +31,6 @@ int setBits(int n, int m, int i, int j)
 }
  
 // Drivers program
+int main()
+{
+    int n = 2, m = 4;
