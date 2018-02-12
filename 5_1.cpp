@@ -34,3 +34,5 @@ int setBits(int n, int m, int i, int j)
 int main()
 {
     int n = 2, m = 4;
+    int i = 2, j = 4;
+    cout << setBits(n, m, i, j);
