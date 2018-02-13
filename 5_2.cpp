@@ -10,5 +10,6 @@ int main(){
       cout << bitset<8>(myString.c_str()[i]) << endl;
   }
   
+  system("pause");
   
 }
