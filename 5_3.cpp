@@ -29,3 +29,12 @@ uint_t snoob(uint_t x)
     // isolate the pattern
     rightOnesPattern = x ^ nextHigherOneBit;
  
+
+    // right adjust pattern
+    rightOnesPattern = (rightOnesPattern)/rightOne;
+ 
+    // correction factor
+    rightOnesPattern >>= 2;
+ 
+    // rightOnesPattern is now part [A] of the above explanation.
+ 
