@@ -52,3 +52,7 @@ int main()
   int x = 156;
   cout<<"Next higher number with same number of set bits is "<<snoob(x);
  
+
+  getchar();
+  return 0;
+}
