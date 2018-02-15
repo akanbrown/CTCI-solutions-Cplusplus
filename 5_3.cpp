@@ -38,3 +38,11 @@ uint_t snoob(uint_t x)
  
     // rightOnesPattern is now part [A] of the above explanation.
  
+
+    // integrate new pattern (Add [D] and [A])
+    next = nextHigherOneBit | rightOnesPattern;
+  }
+ 
+  return next;
+}
+ 
