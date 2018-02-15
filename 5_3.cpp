@@ -46,3 +46,9 @@ uint_t snoob(uint_t x)
   return next;
 }
  
+
+int main()
+{
+  int x = 156;
+  cout<<"Next higher number with same number of set bits is "<<snoob(x);
+ 
