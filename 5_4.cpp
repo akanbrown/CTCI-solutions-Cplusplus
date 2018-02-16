@@ -24,7 +24,14 @@ int main(){
     "be a 0 in (n-1). That is: " +
     "if      n = abcde1000" +
     "then n-1 = abcde0111" +
+    
     "So what does n & (n - 1) == 0 indicate?" +
+    
+    "n and (n-1) must have no 1s in common. Given that they look like this: " +
+    "if           n = abcde1000" +
+    "then  n-1 = abcde0111" +
+    "abcde must be all 0s, which means that n mus tlook like this: 00001000. n is therefore a power of two." +
+    "So, we have our answer ((n & (n-1)) == 0) checks if n is a power of  (or 0)." 
     
   system("pause");
   return 0;
