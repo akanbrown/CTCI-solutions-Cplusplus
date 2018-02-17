@@ -22,3 +22,6 @@ int main()
  
     // Output is 43 (00101011)
     printf("%u ", swapBits(x));
+ 
+    return 0;
+}
