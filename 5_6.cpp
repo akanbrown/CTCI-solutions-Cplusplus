@@ -15,3 +15,8 @@ unsigned int swapBits(unsigned int x)
     return (even_bits | odd_bits); // Combine even and odd bits
 }
  
+// Driver program to test above function
+int main()
+{
+    unsigned int x = 23; // 00010111
+ 
