@@ -20,3 +20,5 @@ int main()
 {
     unsigned int x = 23; // 00010111
  
+    // Output is 43 (00101011)
+    printf("%u ", swapBits(x));
