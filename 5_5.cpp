@@ -26,3 +26,7 @@ int FlippedCount(int a, int b)
     return countSetBits(a^b);
 }
  
+
+// Driver code
+int main()
+{
