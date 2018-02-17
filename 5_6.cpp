@@ -1,3 +1,7 @@
+// C program to swap even and odd bits of a given number
+#include <stdio.h>
+ 
+unsigned int swapBits(unsigned int x)
 {
     // Get all even bits of x
     unsigned int even_bits = x & 0xAAAAAAAA; 
