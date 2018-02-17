@@ -15,3 +15,14 @@ int countSetBits(int n)
     }
     return count;
 }
+
+ 
+// Function that return count of
+// flipped number
+int FlippedCount(int a, int b)
+{
+    // Return count of set bits in
+    // a XOR b
+    return countSetBits(a^b);
+}
+ 
