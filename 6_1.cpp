@@ -8,4 +8,4 @@ parentheses you'd like.
 int main(){
   
   printf(" ((3 + 1) / 3) * 6) ");
-  
+  system("pause");
