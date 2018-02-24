@@ -36,7 +36,7 @@ numbers 1 thorugh 10 and square them (1*1, 2*2, 3*3, ..., 10*10).
 using namespace std;
 
 int main(){
-  print("Therefore, there are 10 lockers open.");
+  printf("Therefore, there are 10 lockers open.");
   system("pause");
   return 0;
 }
