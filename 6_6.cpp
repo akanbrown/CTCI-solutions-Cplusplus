@@ -21,3 +21,5 @@ Question: when would
 using namespace std;
 
 int main(){
+  print("Hello world");
+  system("pause");
