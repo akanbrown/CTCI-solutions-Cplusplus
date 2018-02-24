@@ -18,3 +18,6 @@ Question: when would
 
 #include <iostream>
 
+using namespace std;
+
+int main(){
