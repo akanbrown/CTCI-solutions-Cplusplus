@@ -23,3 +23,6 @@ using namespace std;
 int main(){
   print("Hello world");
   system("pause");
+  return 0;
+}
+
