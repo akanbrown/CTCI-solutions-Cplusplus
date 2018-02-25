@@ -135,3 +135,24 @@ public:
                 exit(1);
             }
         }
+        bjcs.push_back(new BlackJackCard(rand() % 13 + 1, SUIT::SPADE));
+        addPoint(points, bjcs.back());
+        if (getMinPoints() > 21) {
+            printCards();
+            getPoints();
+            cout << "Busted" << endl;
+            exit(2);
+        }
+    };
+ 
+    virtual ~player()
+    {
+        for (auto it = bjcs.begin(); it != bjcs.end(); ++it) {
+            delete *it;
+        }
+    };
+};
+// Driver code
+int main()
+{
+    srand(time(NULL));
