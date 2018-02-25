@@ -156,3 +156,8 @@ public:
 int main()
 {
     srand(time(NULL));
+    player p(1, 1000);
+    p.getAnotherCard();
+    p.getAnotherCard();
+    p.getAnotherCard();
+ 
