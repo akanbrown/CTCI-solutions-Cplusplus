@@ -123,3 +123,15 @@ public:
         addPoint(points, bjcs[1]);
     };
  
+    void getAnotherCard()
+    {
+        for (set<int>::iterator it = points.begin(); it != points.end(); ++it) {
+          
+            /* predefined strategy for the player    */
+            if (*it <= 21 && 21 - *it <= 4) {
+                printCards();
+                getPoints();
+                cout << "Stand" << endl;
+                exit(1);
+            }
+        }
