@@ -161,3 +161,6 @@ int main()
     p.getAnotherCard();
     p.getAnotherCard();
  
+
+    return 0;
+}
