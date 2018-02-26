@@ -16,3 +16,12 @@
   
 /** 
 public class CallHandler {
+static final int LEVELS = 3; // we have 3 levels of employees
+static final int NUM_FRESHERS = 5; // we have 5 freshers
+ArrayList<Employee>[] employeeLevels = new ArrayList[LEVELS];
+// queues for each call’s rank
+Qeue<Call>[] callQueues = new LinkedList[LEVELS];
+public CallHandler() { ... }
+Employee getCallHandler(Call call) {
+for (int level = call.rank; level < LEVELS - 1; level++) {
+ArrayList<Employee> employeeLevel = employeeLevels[level];
