@@ -30,3 +30,10 @@ if (emp.free) {
 return emp;
 }
 }
+}
+return null;
+}
+
+// routes the call to an available employee, or adds to a queue
+
+**/
