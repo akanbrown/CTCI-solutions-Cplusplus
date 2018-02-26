@@ -25,3 +25,8 @@ public CallHandler() { ... }
 Employee getCallHandler(Call call) {
 for (int level = call.rank; level < LEVELS - 1; level++) {
 ArrayList<Employee> employeeLevel = employeeLevels[level];
+for (Employee emp : employeeLevel) {
+if (emp.free) {
+return emp;
+}
+}
