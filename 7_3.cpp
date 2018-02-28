@@ -65,3 +65,7 @@ void Form1::displayRandomJokeLines()
             doneFiles++;
             if (doneFiles>=FileCount)
             {
+                initRandomMode();
+            }
+        }
+    }
