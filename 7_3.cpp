@@ -28,3 +28,34 @@ void Form1::GenerateRandomFiles()
     }
 }
 
+private: System::Void listBox2_SelectedIndexChanged_1(
+         System::Object^  sender, System::EventArgs^  e)
+{
+    label8->Text=JokeList[listBox2->SelectedIndex];
+    jokeLineCount=listBox2->SelectedIndex;
+    updateInfoDisplay();
+}
+
+void Form1::displayRandomJokeLines()
+{
+    String^ sDebug;
+
+    if (RanDom==1)
+    {
+        jokeLineCount=(int)iJokeList[doneLines];
+        listBox2->SetSelected(jokeLineCount,true);
+        label8->Text=JokeList[jokeLineCount];
+        label10->Text="Unread Lines "+(LineCount-doneLines) +"  ";
+        label11->Text="Unread Files "+(FileCount-doneFiles);
+
+        doneLines++;
+        if (doneLines>=LineCount)
+        {
+            doneLines=0;
+            updateInfoDisplay();
+            jokeFileCount=(int)iFileList[doneFiles];
+            ProcessFile( fileList[jokeFileCount] );
+            listBox1->SetSelected(jokeFileCount,true);
+            label1->Text="Jokefile= "+fileList[jokeFileCount] ;
+            listBox2->SetSelected(0,true);
+            label11->Text="Unread Files "+(FileCount-doneFiles);
