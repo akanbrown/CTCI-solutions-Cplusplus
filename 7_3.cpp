@@ -16,3 +16,15 @@ private: System::Void listBox1_SelectedIndexChanged(
                    fileList[listBox1->SelectedIndex]+"]";
 }
 
+void Form1::GenerateRandomFiles()
+{
+    Random^ random = gcnew Random( Environment::TickCount );
+
+    for (int j=0;j<FileCount;j++)
+    {
+        iFileList[j] =random->Next() % (FileCount) ;
+        for(int k=0;k<j;k++)
+            if (iFileList[j]==iFileList[k]) j--;
+    }
+}
+
