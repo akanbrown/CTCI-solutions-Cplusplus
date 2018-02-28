@@ -59,3 +59,9 @@ void Form1::displayRandomJokeLines()
             label1->Text="Jokefile= "+fileList[jokeFileCount] ;
             listBox2->SetSelected(0,true);
             label11->Text="Unread Files "+(FileCount-doneFiles);
+
+            GenerateRandomLines();
+
+            doneFiles++;
+            if (doneFiles>=FileCount)
+            {
