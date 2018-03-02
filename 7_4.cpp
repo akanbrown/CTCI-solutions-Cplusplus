@@ -142,3 +142,7 @@ int main()
 	cin >> move_from;
 	cout << "to ";
 	cin >> move_to;
+	cout << endl;
+	
+
+
