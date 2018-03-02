@@ -140,3 +140,5 @@ int main()
 	
 	cout << "Enter White Move: ";
 	cin >> move_from;
+	cout << "to ";
+	cin >> move_to;
