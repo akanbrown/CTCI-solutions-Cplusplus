@@ -129,3 +129,14 @@ int main()
 	for(int i=0;i<8;i++)
 	{
 	cout << board[7];
+	}
+	cout << endl;
+	
+	cout << "abcdefgh" << endl;
+
+	cout << " White" << endl;
+
+	cout    << "White moves first." << endl;
+	
+	cout << "Enter White Move: ";
+	cin >> move_from;
