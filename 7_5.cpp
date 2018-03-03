@@ -175,3 +175,27 @@ namespace READER
 }
 
 #endif
+
+
+//readersystem.h
+#ifndef ONLINE_BOOK_READER_SYSTEM_H
+#define ONLINE_BOOK_READER_SYSTEM_H
+
+/*
+ *  This is main interface - through which end user can
+ *  interact and get the tasks done
+ * */
+
+namespace READER
+{
+    class ReaderSystem
+    {
+    public:
+        ReaderSystem(Library *plibrary);
+        bool createMember(Person *pperson);
+        bool validMembership(Person *pperson);
+        int  memberValidTill(Person *pperson);
+        bool renewMember(Person *pperson);
+        bool isBookAvailable(Book *pbook);
+        bool checkOutBook(Book *pbook);
+        bool checkInBook(Book *pbook);
