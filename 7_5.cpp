@@ -199,3 +199,15 @@ namespace READER
         bool isBookAvailable(Book *pbook);
         bool checkOutBook(Book *pbook);
         bool checkInBook(Book *pbook);
+
+    private:
+        Book *pbook;
+        Library *plibrary;
+        Person *pperson;
+        BookSearch *pbooksearch;
+        Membership *pmembership;
+        BookTrans *pbooktrans;
+    };
+}
+
+#endif
