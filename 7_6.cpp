@@ -41,3 +41,6 @@ public class JigsawPuzzle {
 		Stack<Piece> stackOfPieces = new Stack<Piece>();
 		final int numPieces = piecesOfPuzzle.length;
 
+		for (int i = numPieces - 1; i >= 0; i--) {
+			stackOfPieces.push(piecesOfPuzzle[i]);
+		}
