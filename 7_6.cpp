@@ -46,3 +46,5 @@ public class JigsawPuzzle {
 		}
 
 		return stackOfPieces;
+	}
+}
