@@ -44,3 +44,5 @@ public class JigsawPuzzle {
 		for (int i = numPieces - 1; i >= 0; i--) {
 			stackOfPieces.push(piecesOfPuzzle[i]);
 		}
+
+		return stackOfPieces;
