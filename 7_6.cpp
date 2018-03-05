@@ -27,3 +27,13 @@ public class JigsawPuzzle {
 				if (aPiece.fitsWith(anotherPiece)) {
 					Piece bigPiece = aPiece.joinWith(anotherPiece);
 
+					stackOfPieces.push(bigPiece);
+
+					break;
+				}
+			}
+		}
+
+		return stackOfPieces.size() == 1;
+	}
+
