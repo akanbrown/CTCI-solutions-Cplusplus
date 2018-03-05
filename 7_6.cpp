@@ -37,3 +37,7 @@ public class JigsawPuzzle {
 		return stackOfPieces.size() == 1;
 	}
 
+	private Stack<Piece> stackOfPieces() {
+		Stack<Piece> stackOfPieces = new Stack<Piece>();
+		final int numPieces = piecesOfPuzzle.length;
+
