@@ -109,3 +109,5 @@ public class Question{
     if (won()!=3){
    
    
+System.out.println(won() == 1 ? "white" : "black" + " won!");
+   
