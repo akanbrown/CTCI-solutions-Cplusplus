@@ -38,3 +38,34 @@ clients, as it's easy for a person and a machine to read.
 What are the key objects and methods?
 We have listed the key objects and methods below. Note that we have hidden many of the 
 details, such as how to actually push the data out to a client.
+
+enum StatusType{
+  online, offline, away;
+}
+class Status {
+  StatusType status_type;
+  String status_message;
+}
+class User {
+  String username;
+  String display_name;
+  User[] contact_list;
+  AddRequest[] requests;
+  boolean updateStatus(StatusType, stype, String message) { ... };
+  boolean addUserWithUsername(String name);
+  boolean approveRequest(String username);
+  boolean denyRequest(string username);
+  boolean removeContact(String username);
+  boolean sendMessage(String username, String message);
+}
+// Holds data that from_user would like to add to_user 
+class AddRequest{
+  User from_user;
+  User to_user;
+}
+class Server{
+  User getUserByUsername(String username);
+}
+
+What problems would be the hardes tot solve (or the most interesting)?
+Q1 How do we know if someone is online - I mean, really, really know?
