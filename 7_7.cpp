@@ -26,3 +26,15 @@ What specific actions does it need to suport?
 * User A changes status message and/or status type
 * User A removes User B
 * User A signs offline
+
+What can we learn about these requirements?
+We must have a concept of users, add request staus, online status, and messages.
+
+What are the core components?
+We'll need a database to store items and al "always online" application as the server.
+We might recommend using XML for hte communication between the chat server and the 
+clients, as it's easy for a person and a machine to read.
+
+What are the key objects and methods?
+We have listed the key objects and methods below. Note that we have hidden many of the 
+details, such as how to actually push the data out to a client.
