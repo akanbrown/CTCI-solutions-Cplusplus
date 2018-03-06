@@ -114,3 +114,5 @@ System.out.println(won() == 1 ? "white" : "black" + " won!");
    
 } else {
    
+     System.out.println("It's a draw!");
+   
