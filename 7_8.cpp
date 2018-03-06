@@ -91,3 +91,12 @@ public class Question{
    valid = false;
       printBoard();
    
+   while (!valid) {
+        try{
+          getMove(white);
+          valid = true;
+        } catch (Exception e){
+          System.out.println("Enter a valid coordinate!");
+        }
+      }
+   
