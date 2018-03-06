@@ -88,3 +88,6 @@ public class Question{
         }
       }
    
+   valid = false;
+      printBoard();
+   
