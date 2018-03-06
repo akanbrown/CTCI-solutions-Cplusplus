@@ -105,3 +105,6 @@ public class Question{
 
  }
    
+ 
+    if (won()!=3){
+   
