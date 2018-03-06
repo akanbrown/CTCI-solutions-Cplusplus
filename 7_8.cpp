@@ -74,3 +74,17 @@ public class Question{
    private void add (int x, int y, int color ){ ... }
    
   
+ /* The actual game: runs continuously until a player wins */
+   private void game(){
+    printBoard();
+    while (won() == 0){
+      boolean valid = false;
+      while (!valid){
+        try{
+          getMove(black);
+          valid = true;
+        } catch (Exception e){
+          System.out.println("Enter a valid coordinate!");
+        }
+      }
+   
