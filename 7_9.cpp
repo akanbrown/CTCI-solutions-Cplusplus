@@ -11,3 +11,9 @@ File System Design") or B+ trees.
 struct DataBLock { char data[DATA_BLOCK_SIZE]; };
 DataBlock dataBLocks[NUM_DATA_BLOCKS];
 struct INode {std::vector<int> datablocks; };
+struct MetaData {
+  int size;
+  Date last_modified, created;
+  char extra_attributes;
+};
+std::vector<bool> dataBLockUsed(NUM_DATA_BLOCKS);
