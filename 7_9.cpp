@@ -31,4 +31,6 @@ struct FileSystem{
   mount(FileSystem*);
   unmount(FileSystem*);
   File createFile(const char* name) {... }
-  Dirctory createDirectory(const char* name) { ... }
+  Directory createDirectory(const char* name) { ... }
+  //mapFromName to find INode corresponding ot file
+  void openFile(File * file, FileMode mode) { ... }
