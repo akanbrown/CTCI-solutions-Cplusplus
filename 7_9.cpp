@@ -24,3 +24,11 @@ struct File : public FSBase {
     std::vector<INode> * nodes;
   Metadata metadata;
 };
+
+struct Directory : public FSBase {std::vector<FSBase* > content; };
+struct FileSystem{
+  init();
+  mount(FileSystem*);
+  unmount(FileSystem*);
+  File createFile(const char* name) {... }
+  Dirctory createDirectory(const char* name) { ... }
