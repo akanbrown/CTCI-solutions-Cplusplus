@@ -17,3 +17,10 @@ struct MetaData {
   char extra_attributes;
 };
 std::vector<bool> dataBLockUsed(NUM_DATA_BLOCKS);
+std::map<string, INode *> mapFromName;
+struct FSBase;
+struct File : public FSBase {
+  private:
+    std::vector<INode> * nodes;
+  Metadata metadata;
+};
