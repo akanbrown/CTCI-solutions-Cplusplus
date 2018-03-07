@@ -36,3 +36,4 @@ struct FileSystem{
   void openFile(File * file, FileMode mode) { ... }
   void closeFile (File * file) { ... }
   void writeToFile(File * file, void * data, int num) { ... }
+  void readFromFile(File* file, void* res, int numbutes
