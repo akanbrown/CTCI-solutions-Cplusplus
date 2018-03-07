@@ -34,4 +34,5 @@ struct FileSystem{
   Directory createDirectory(const char* name) { ... }
   //mapFromName to find INode corresponding ot file
   void openFile(File * file, FileMode mode) { ... }
-void closeFile (File * file) { ... }
+  void closeFile (File * file) { ... }
+  void writeToFile(File * file, void * data, int num) { ... }
