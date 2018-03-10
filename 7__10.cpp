@@ -63,3 +63,15 @@ struct RefCountPtr{
 }
 Advantages: no memory overhead because of two pointers.
 Disadvantages: performance penalty because of extra level of indirection
+
+3. Intrusive refernece counting.
+struct Object { ... };
+struct ObjectIntrusiveReferenceCounting {
+  struct ObjectIntrusiveReferenceCounting {
+  int count;
+};
+struct RefCountPtr {
+  ObjectIntrusiveReferenceCounting * pointee;
+};
+Advantages: no previous disadvantages
+Disadvantages: class for intrusive refernece counting should be modified.
