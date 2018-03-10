@@ -88,3 +88,7 @@ actual value is not important. This is the main idea of approach #4.
 struct Object { };
 struct ListNode {
   
+Object * pointee;
+  ListNode * next;
+}
+**/
