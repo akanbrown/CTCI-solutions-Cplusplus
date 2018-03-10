@@ -22,3 +22,34 @@ RefCountPointer::type1(){
 /* implementation depends on reference counting organization.
 * There can also be no ref. counter at all (see approach #) */
 
+/**
+incrementRefCounter(); }
+
+RefCountPointer::type2(){
+/* Implementation depends on refernece counting organization.
+* There can also be no ref. counter at all (see approach #4). */
+
+/**
+decrementRefCounter();
+if (referenceCounterIsZero()){
+  if (referenceCounterIsZero()){
+    destructObject();
+  }
+}
+
+There are several approaches for reference counting an dimplementation in C++:
+1.Simple reference counting. 
+struct Object { };
+struct RefCount {
+  int count;
+};
+struct RefCountPtr {
+Object * pointee;
+RefCount * refCount;
+};
+
+};
+Advantages: performance.
+Disadvantages: memory overhead because of two pointers.
+
+2. Alternative reference counting.
