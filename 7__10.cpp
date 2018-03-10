@@ -53,3 +53,13 @@ Advantages: performance.
 Disadvantages: memory overhead because of two pointers.
 
 2. Alternative reference counting.
+struct Object { ... };
+struct RefCountPtrImpl {
+  int count;
+  Object * object;
+};
+struct RefCountPtr{
+  RefCountPtrImpl * pointee;
+}
+Advantages: no memory overhead because of two pointers.
+Disadvantages: performance penalty because of extra level of indirection
