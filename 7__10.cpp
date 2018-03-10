@@ -11,9 +11,14 @@ for using smart pointers over raw ordinary pointers
 is the conceptual simplicity of implementation and usage.
 
 **/
+/**
+With smart pointers, everything related to garbage 
+collection is performed behind the scenes - typically 
+in constructors / destructors / assignment operator /
+explicit object management functions.
 
-int main(){
-  printf("Hello world\n.");
-  system("pause");
-  return 0;
-}
+There are two types of functions, both of which are very simple: 
+RefCountPointer::type1(){
+/* implementation depends on reference counting organization.
+* There can also be no ref. counter at all (see approach #) */
+
