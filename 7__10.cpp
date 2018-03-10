@@ -80,3 +80,5 @@ Disadvantages: class for intrusive refernece counting should be modified.
 approach 1-3. For 1-3 it is only important to determine that 
 counter is zero--its actual value is not important. This is 
 the main idea of approach #4.
+
+list reference counting. It is an alternative for approach 1-3. 
