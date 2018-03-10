@@ -9,3 +9,11 @@ is almost always implemented with smart pointers,
 which perform reference counting. The main reason 
 for using smart pointers over raw ordinary pointers
 is the conceptual simplicity of implementation and usage.
+
+**/
+
+int main(){
+  printf("Hello world\n.");
+  system("pause");
+  return 0;
+}
