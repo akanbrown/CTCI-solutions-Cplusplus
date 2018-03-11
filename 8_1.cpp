@@ -32,3 +32,6 @@ int fib(int n){
   
   for (int i=3; i<=n;i++){
    
+ int c =a + b;
+    a = b;
+   
