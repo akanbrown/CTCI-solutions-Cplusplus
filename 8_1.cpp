@@ -35,3 +35,5 @@ int fib(int n){
  int c =a + b;
     a = b;
    
+ b = c;
+  }
