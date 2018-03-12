@@ -39,3 +39,5 @@ public static boolean getPaths(int x, int y){
      
   }
   if (!success && y >= 1 && is_free(x, y-1)) { //Try down
+      success = getPaths(x, y-1); //Free! Go down
+  }
