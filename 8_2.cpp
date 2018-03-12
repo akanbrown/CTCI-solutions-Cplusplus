@@ -35,3 +35,4 @@ public static boolean getPaths(int x, int y){
  
  boolean success = false;
  if (x >= 1 && is_free(x-1, y)) { //Try right
+     success = getPaths(x-1, y); // Free! Go right
