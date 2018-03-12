@@ -43,5 +43,4 @@ public static boolean getPaths(int x, int y){
   }
  
  if (!success){
- 
- 
+   current_path.remove(p); //Wrong way!
