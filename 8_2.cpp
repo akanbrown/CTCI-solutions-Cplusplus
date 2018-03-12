@@ -42,3 +42,5 @@ public static boolean getPaths(int x, int y){
       success = getPaths(x, y-1); //Free! Go down
   }
  
+ if (!success){
+ 
