@@ -31,3 +31,5 @@ public static boolean getPaths(int x, int y){
   Point p = new Point(x, y);
   curent_path.add(p);
  
+ if (0 = x && 0 == y) return true; // current_path
+ 
