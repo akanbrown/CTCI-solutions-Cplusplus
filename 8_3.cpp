@@ -70,3 +70,4 @@ ArrayList<ArrayList<Integer>> getSubsets2(ArrayList<Integer> set){
       if ((k & 1) > 0){
         subset.add(set.get(index));
       }
+      k >>= 1;
