@@ -66,3 +66,4 @@ ArrayList<ArrayList<Integer>> getSubsets2(ArrayList<Integer> set){
     ArrayList<Integer> subset = new ArrayList<Integer>();
     int k = i;
     int index = 0;
+    while (k > 0){
