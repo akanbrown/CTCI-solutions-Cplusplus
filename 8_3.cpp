@@ -58,3 +58,5 @@ and each "no" can be treated as a 0, then each subset can be represented as a bi
 
 Generating all subsets then really just comes down to gnerating all
 binary numbers (that is, all integers). Easy!
+
+ArrayList<ArrayList<Integer>> getSubsets2(ArrayList<Integer> set){
