@@ -63,4 +63,4 @@ ArrayList<ArrayList<Integer>> getSubsets2(ArrayList<Integer> set){
   ArrayList<ArrayList<Integer>> allsubsets = new ArrayList<ArrayList<Integer>>();
   int max = 1 << set.size();
   for (int i = 0; i < max; i++){
-  
+    ArrayList<Integer> subset = new ArrayList<Integer>();
