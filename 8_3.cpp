@@ -72,3 +72,5 @@ ArrayList<ArrayList<Integer>> getSubsets2(ArrayList<Integer> set){
       }
       k >>= 1;
       index++;
+    }
+    allsubsets.add(subset);
