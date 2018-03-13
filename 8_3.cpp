@@ -34,3 +34,27 @@ ArrayList<ArrayList<Integer>> getSubsets(ArrayList<Integer> set, int index){
     allsubsets = getSubsets(set, index+1);
     int item = set.get(index);
     ArrayList<ArrayList<Integer>> moresubsets=new ArrayList<ArrayList<Integer>>();
+    for (ArrayList<Integer> subset : allsubsets){
+      ArrayList<Integer> newsubset = new ArrayList<INteger>();
+      newsubset.addAll(subset);
+      newsubset.add(item);
+      moresubsets.add(newsubset);
+    }
+    allsubsets.addAll(moresubsets);
+  }
+  return allsubsets;
+}
+
+// Approach #2: Combinatorics
+
+//When we're gnerating a set, we have two choices for each elemnt:
+/* /(1) the element is in the set (the"yes" state) or (2) the element
+is not in the set  (the "no" state). This means that each subset is a sequence
+of yesses / nos -- e.g., "yes, yes, no no, yes, no"
+
+This gives us 2^n possible subsets. How can we iterate through all possible sequences
+of "yes" / "no" states for all elements? If each "yes" can be treated as a 1
+and each "no" can be treated as a 0, then each subset can be represented as a binary string.
+
+Generating all subsets then really just comes down to gnerating all
+binary numbers (that is, all integers). Easy!
