@@ -61,3 +61,4 @@ binary numbers (that is, all integers). Easy!
 
 ArrayList<ArrayList<Integer>> getSubsets2(ArrayList<Integer> set){
   ArrayList<ArrayList<Integer>> allsubsets = new ArrayList<ArrayList<Integer>>();
+  int max = 1 << set.size();
