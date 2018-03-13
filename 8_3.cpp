@@ -67,3 +67,6 @@ ArrayList<ArrayList<Integer>> getSubsets2(ArrayList<Integer> set){
     int k = i;
     int index = 0;
     while (k > 0){
+      if ((k & 1) > 0){
+        subset.add(set.get(index));
+      }
