@@ -65,3 +65,4 @@ ArrayList<ArrayList<Integer>> getSubsets2(ArrayList<Integer> set){
   for (int i = 0; i < max; i++){
     ArrayList<Integer> subset = new ArrayList<Integer>();
     int k = i;
+    int index = 0;
