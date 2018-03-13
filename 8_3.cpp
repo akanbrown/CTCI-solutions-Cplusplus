@@ -74,3 +74,6 @@ ArrayList<ArrayList<Integer>> getSubsets2(ArrayList<Integer> set){
       index++;
     }
     allsubsets.add(subset);
+  }
+  return allsubsets;
+  
