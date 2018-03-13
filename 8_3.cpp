@@ -60,3 +60,4 @@ Generating all subsets then really just comes down to gnerating all
 binary numbers (that is, all integers). Easy!
 
 ArrayList<ArrayList<Integer>> getSubsets2(ArrayList<Integer> set){
+  ArrayList<ArrayList<Integer>> allsubsets = new ArrayList<ArrayList<Integer>>();
