@@ -1,2 +1,3 @@
 /** 
-Write a method to compute all permutations of a string **/
+Write a method to compute
+all permutations of a string **/
