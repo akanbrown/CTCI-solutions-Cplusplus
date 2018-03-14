@@ -15,3 +15,5 @@ For example, if our string is "abc", we would do the following:
 2. Let list = permute(bc) = ("bc", "cd")
 3. Push "a" into each location of "bc" (--> "abc", "bac", "bca") and "cb" (--> "acb", "cab", "cba")
 4. Return our new list
+
+Now the code to do this:
