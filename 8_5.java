@@ -1,1 +1,1 @@
-/**Implement an algorithm to  print all valid (e.g., properly opened
+/**Implement an algorithm to  print all valid (e.g., properly opened and
