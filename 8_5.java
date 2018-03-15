@@ -1,1 +1,1 @@
-/**Implement an
+/**Implement an algorithm
