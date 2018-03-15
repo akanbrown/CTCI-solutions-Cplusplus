@@ -1,1 +1,1 @@
-/**Implement an algorithm to  print
+/**Implement an algorithm to  print all
