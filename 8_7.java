@@ -40,3 +40,4 @@ public static int makeChange(int n, int denom) {
     ways += makeChange(n - i * denom, next_denom);
   }
   return ways;
+}
