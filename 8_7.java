@@ -42,4 +42,4 @@ public static int makeChange(int n, int denom) {
   return ways;
 }
 
-System.out.writeln(makeChange(n, 25
+System.out.writeln(makeChange(n, 25)
