@@ -33,3 +33,4 @@ boolean check(int row){
     int diff = Math.abs(columnForRow[i]-columnForRow[row]);
     if (diff == 0 || diff == row-i) return false;
   }
+  return true;
