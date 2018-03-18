@@ -34,3 +34,5 @@ boolean check(int row){
     if (diff == 0 || diff == row-i) return false;
   }
   return true;
+}
+
