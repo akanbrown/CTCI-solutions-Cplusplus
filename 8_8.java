@@ -28,3 +28,4 @@ Code:
 **/
 
 int columnForRow[] = new int[8];
+boolean check(int row){
