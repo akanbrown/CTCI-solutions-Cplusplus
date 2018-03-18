@@ -38,3 +38,4 @@ boolean check(int row){
 
 void PlaceQueen(int row){
   if (row == 8) {
+    printBoard();
