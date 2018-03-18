@@ -36,3 +36,4 @@ boolean check(int row){
   return true;
 }
 
+void PlaceQueen(int row){
