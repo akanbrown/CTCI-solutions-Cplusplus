@@ -27,3 +27,4 @@ On the ssame Diagonal : (ColumnForRow[i] - ColumnForRow[j] ) == (i-j) or
 Code: 
 **/
 
+int columnForRow[] = new int[8];
