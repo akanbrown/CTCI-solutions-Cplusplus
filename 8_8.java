@@ -39,3 +39,12 @@ boolean check(int row){
 void PlaceQueen(int row){
   if (row == 8) {
     printBoard();
+    return;
+  }
+  for (int i=0; i < 8; i++){
+    columnForRow[row]=i;
+    if (check(row)){
+      PlaceQueen(row+1);
+    }
+  }
+}
