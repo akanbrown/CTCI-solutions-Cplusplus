@@ -29,3 +29,4 @@ Code:
 
 int columnForRow[] = new int[8];
 boolean check(int row){
+  for (int i=0; i < row; i++){
