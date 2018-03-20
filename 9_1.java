@@ -20,3 +20,4 @@ public static void merge(int[] a, int[] b, int n, int m){
   while (i >= 0 && j >= 0){
     if (a[i] > b[j]){
       a[k--] = a[i--];
+    }else {
