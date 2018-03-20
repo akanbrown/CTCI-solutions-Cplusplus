@@ -22,3 +22,11 @@ public static void merge(int[] a, int[] b, int n, int m){
       a[k--] = a[i--];
     }else {
       a[k--] = b[j--];
+    }
+    
+  }
+  while (j >= 0){
+    a[k--]=b[j--];
+  }
+}
+
