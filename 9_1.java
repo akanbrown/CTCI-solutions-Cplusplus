@@ -19,3 +19,4 @@ public static void merge(int[] a, int[] b, int n, int m){
   //Start comparing from the last element and merge a and b
   while (i >= 0 && j >= 0){
     if (a[i] > b[j]){
+      a[k--] = a[i--];
