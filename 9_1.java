@@ -17,3 +17,4 @@ public static void merge(int[] a, int[] b, int n, int m){
   int j = m - 1; //Index of last element in array a
   
   //Start comparing from the last element and merge a and b
+  while (i >= 0 && j >= 0){
