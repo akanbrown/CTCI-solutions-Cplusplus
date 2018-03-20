@@ -21,3 +21,4 @@ public static void merge(int[] a, int[] b, int n, int m){
     if (a[i] > b[j]){
       a[k--] = a[i--];
     }else {
+      a[k--] = b[j--];
