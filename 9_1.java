@@ -31,4 +31,6 @@ public static void merge(int[] a, int[] b, int n, int m){
 }
 
 /**
-Note: You don'
+Note: You don't need to copy the contents of a after running out of b's. They ar already in place.
+
+**/
