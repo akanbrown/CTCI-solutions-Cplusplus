@@ -1,2 +1,2 @@
 /**
-Write a metho
+Write a method
