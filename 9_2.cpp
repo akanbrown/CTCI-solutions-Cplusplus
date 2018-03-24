@@ -1,2 +1,2 @@
 /**
-Write a meth
+Write a metho
