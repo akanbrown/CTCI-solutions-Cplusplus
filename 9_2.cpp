@@ -1,2 +1,2 @@
 /**
-Write a met
+Write a meth
