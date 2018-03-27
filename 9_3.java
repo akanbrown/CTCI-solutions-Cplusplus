@@ -30,3 +30,5 @@ public static in search (int a[], int l, int u, int x){
     }
     else if (x < a[m]) u = m-1;
     else if (x <= a[u] l = m+1;
+    else u = m-1;
+  }
