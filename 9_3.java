@@ -19,4 +19,12 @@ public static in search (int a[], int l, int u, int x){
     if (x == a[m]){
       return ;
     } else if (a[l] <= a[m]) { 
-      
+      if (x > a[m]){
+        l = m+1;
+      } else if (x >= a[1]){
+        u = m-1;
+      }else{
+        l = m+ 1;
+      }
+    }
+    else if (x < a[m]) u = m-1;
