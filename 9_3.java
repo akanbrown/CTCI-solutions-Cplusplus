@@ -32,3 +32,11 @@ public static in search (int a[], int l, int u, int x){
     else if (x <= a[u] l = m+1;
     else u = m-1;
   }
+
+  return -1;
+}
+
+public static int search(int a[, int x){
+  return search(a, 0, a.length-1, x);
+}
+                               
