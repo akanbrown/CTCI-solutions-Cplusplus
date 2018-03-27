@@ -1,5 +1,6 @@
 /**
-Given a sorted array of n integers that has been rotated an unknown number of times, give an O(log n) algorithm tha tfinds an element in the array. You may assume that the array was 
+Given a sorted array of n integers that has been rotated an unknown number of times,
+give an O(log n) algorithm tha tfinds an element in the array. You may assume that the array was 
 originally sored in increasing order.
 
 EXAMPLE:
