@@ -29,4 +29,4 @@ public static in search (int a[], int l, int u, int x){
       }
     }
     else if (x < a[m]) u = m-1;
-    else if (x <= 
+    else if (x <= au
