@@ -40,3 +40,5 @@ public static int search(int a[, int x){
   return search(a, 0, a.length-1, x);
 }
 /**
+What about duplicates? You may observe tha the above function doesn't given you an efficient result in case 
+of duplicates
