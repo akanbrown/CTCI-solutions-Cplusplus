@@ -42,4 +42,6 @@ public static int search(int a[, int x){
 /**
 What about duplicates? You may observe tha the above function doesn't given you an efficient result in 
 the case of duplicate elements. However, if your array has dupicate entries then we can't do better than
-O(n)
+O(n) which is as good as linear search.
+
+For example, if the array is
