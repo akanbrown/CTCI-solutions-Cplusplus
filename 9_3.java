@@ -44,4 +44,4 @@ What about duplicates? You may observe tha the above function doesn't given you 
 the case of duplicate elements. However, if your array has dupicate entries then we can't do better than
 O(n) which is as good as linear search.
 
-For exam
+For example, if
