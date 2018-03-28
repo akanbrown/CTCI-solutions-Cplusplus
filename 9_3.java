@@ -40,5 +40,6 @@ public static int search(int a[, int x){
   return search(a, 0, a.length-1, x);
 }
 /**
-What about duplicates? You may observe tha the above function doesn't given you an efficient result in case 
-of duplicates
+What about duplicates? You may observe tha the above function doesn't given you an efficient result in 
+the case of duplicate elements. However, if your array has dupicate entries then we can't do better than
+O(n)
